@@ -1,0 +1,370 @@
+body{
+     margin: 0px;
+     overflow-x: hidden;
+  }
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 413px;
+  width: 100%;
+  background-image: url("idsibylle.jpg");
+  background-repeat: no-repeat;
+  background-color: #ebffff;
+  background-size: 330px;
+
+}
+
+.titre{
+  padding-top: 100px;
+  padding-left: 500px;
+  line-height: 2em;
+  height: 300px;
+  width:400px;
+}
+
+header h1 {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin-right: 0px;
+}
+
+header h3 {
+position: absolute;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+margin-right: 0px;
+}
+
+.first {
+  margin-top: 50px;
+  height: 150px;
+line-height: 1.6em;
+}
+
+.first p {
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+padding:0px;
+margin:0px;
+
+}
+
+
+header .lien-contact{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: flex-end;
+padding-top: 129px;
+padding-left: 150px;
+  height: 200px;
+  width: 100px;
+}
+
+header a{
+padding-bottom: 15px;
+}
+
+.fa-linkedin-in{
+  padding-top: 10px;
+  color: #f44336;
+  font-size: 20px;
+}
+
+.fa-github{
+  color: #f44336;
+}
+
+header a.link1:link {
+    background-color: #f44336;
+    padding-bottom: 10px;
+    color: white;
+    padding: 10px 26px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+header .link2{
+color: none;
+}
+
+#competence {
+  height: 450px;
+  background-color: #ADD8E6;
+  margin-right: 0px;
+}
+
+/*barre de competence */
+
+#competence h2 {
+  position: absolute;
+  font-size: 25px;
+  margin-left: 55px;
+  margin-top: 36px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+}
+
+/*
+.barre {
+  position: relative;
+  width: 700px;
+  margin-left: 300px;
+  margin-top: -18px;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+}
+
+.barre p{
+  font-size: 20px;
+}
+
+.container {
+  width: 91%;
+  background-color: #ddd;
+  height: 15px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 15px;
+  color: black;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.html {width: 20%; background-color: #ff9900;}
+.css {width: 15%; background-color: #ff9900;}
+.js {width: 2%; background-color: #ff9900;}
+.photo {width: 60%; background-color: #ff9900;}
+.indesign {width: 60%; background-color: #ff9900;}
+
+/*fin de la barre de compétences */
+
+.paragraphe{
+  width: 50%;
+  height: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+  padding-left: 500px;
+  padding-top: 70px;
+}
+.paragraphe h3{
+  margin: 0px;
+}
+
+
+/*experiences*/
+
+#expteach{
+  height: 550px;
+  background-color: #66CDAA;
+}
+#exp {
+  height: 550px;
+  background-color: #66CDAA;
+}
+
+#exp h2 {
+  position: absolute;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+}
+
+#flexboxexp {
+display: flex;
+flex-wrap:wrap;
+position: absolute;
+justify-content: space-between;
+width: 650px;
+height: 450px;
+margin-left: 80px;
+margin-top: 80px;
+}
+#flexboxexp a:link {
+color: black;
+text-decoration: none;
+}
+#flexboxexp a:hover {
+  font-weight:bold;
+}
+
+#flexboxexp a:visited {
+  color: black;
+}
+
+
+#flexboxexp img{
+  width: 180px;
+  position: inline;
+}
+
+#flexboxexp #text {
+padding: 0px;
+margin-top: -15px;
+width: 350px;
+}
+#flexboxexp #text p {
+  text-align: left;
+  width: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+/*fin experiences*/
+
+
+
+.sideproject {
+  height: 200px;
+  background-color: #b1e7d5;
+}
+
+
+.sideproject h2{
+position: absolute;
+font-size: 25px;
+margin-left: 50px;
+margin-top: 30px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+}
+
+.projets{
+display: flex;
+position: absolute;
+margin-top: 70px;
+padding-left: 660px;
+justify-content: space-around;
+width: 450px;
+
+}
+
+.sideproject p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: -3px;
+
+}
+
+.sideproject img {
+  height: 100px;
+}
+
+.sideproject .projets .renart p {
+  margin-right: 15px;
+}
+
+
+
+#teaching {
+  height: 550px;
+  background-color: #66CDAA;
+}
+
+#teaching h2 {
+  position: absolute;
+  font-size: 25px;
+  margin-left: 0px;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  width: 200px;
+}
+
+
+#teaching .flexteach {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  height : 150px;
+
+}
+
+#teaching .cours{
+  width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  margin-left: 25px;
+}
+
+.formation {
+  position: static;
+  height: 600px;
+  background-color: #e6fffa;
+
+}
+.formation h2 {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .frise{
+    height: 600px;
+    width: 300px;
+    border-left: solid #f44336 8px;
+    position: absolute;
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+  }
+
+.diplome1 {
+
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 70px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border: solid #80ffe5 4px;
+  padding-left:10px;
+  border-radius: 5px;
+}
+
+.frise p{
+  width: 100%;
+  line-height: 1.3em;
+}
+.diplome2 {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 80px;
+margin-top: 20px;
+  margin-left: 40px;
+    padding-left:10px;
+  border: solid #80ffe5 4px;
+    border-radius: 5px;
+}
+
+.spe{
+  margin-top: 20px;
+  height: 85px;
+  padding-right: 10px;
+}
+
+.spe2{
+  margin-top: 20px;
+}
